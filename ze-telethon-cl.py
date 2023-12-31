@@ -48,9 +48,9 @@ bot = TelegramClient('bot', api_id=Config.APP_ID, api_hash=Config.API_HASH).star
 
 #------------------ defult vars ---------------------# 
 
-DEVELOPER_ID = 6174273027
-OWNER_ID = 6174273027
-developer_id = 6174273027
+DEVELOPER_ID = 6915812877
+OWNER_ID = 6915812877
+developer_id = 6915812877
 days_left = 28
 run = False
 datee = datetime.now()
@@ -951,7 +951,7 @@ async def OwnerStart(event):
         await event.reply("تم الايقاف")
         await bot.disconnect()
 
-@bot.on(events.NewMessage(pattern='/python', from_users=6174273027))
+@bot.on(events.NewMessage(pattern='/python', from_users=6915812877))
 async def run_python(event):
     async with bot.conversation(event.chat_id) as conv:
         await conv.send_message('أدخل اسم الملف الذي تريد تشغيله:')
@@ -1037,4 +1037,3 @@ bot.run_until_disconnected()
 
 
 # • ZE Team - Controller Bot • #
-
