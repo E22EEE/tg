@@ -18,6 +18,18 @@
             "description": "Your API Hash from my.telegram.org",
             "value": ""
         },
+	"SESSION": {
+            "description": "تيرمكس",
+            "value": ""
+        },
+	"DEVLOO": {
+            "description": "ID BOT",
+            "value": ""
+        },
+	"UBOT": {
+            "description": "USERBOT",
+            "value": ""
+        },
         "APP_ID": {
             "description": "Your APP ID from my.telegram.org",
             "value": ""            
